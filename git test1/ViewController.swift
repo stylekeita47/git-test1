@@ -16,11 +16,16 @@ class ViewController: UIViewController {
         
           let number = 3
         
+        var sum : Int
+        
         let array = ["1","2"]
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        sum = number + 4
+        
         label.text = "Hello World"
-        print(number)
+        print(sum)
         print("\(array)")
 
     }

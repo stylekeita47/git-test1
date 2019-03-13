@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         
           let number = 3
@@ -17,7 +19,7 @@ class ViewController: UIViewController {
         let array = ["1","2"]
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-      
+        label.text = "Hello World"
         print(number)
         print("\(array)")
 

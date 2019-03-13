@@ -17,8 +17,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
       
         print(number)
+        
+        print(reverse(text: "stressed"))
     }
-
+    
+    func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
 
 }
 

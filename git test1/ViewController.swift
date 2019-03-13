@@ -13,17 +13,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
           let number = 3
+        
+        let array = ["1","2"]
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
       
         print(number)
-        
-        print(reverse(text: "stressed"))
+        print("\(array)")
+
     }
     
-    func reverse(text: String) -> String {
-        return String(text.reversed())
-    }
+    
+    
 
 }
 
